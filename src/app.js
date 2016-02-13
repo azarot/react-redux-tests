@@ -1,8 +1,9 @@
 import {createStore} from 'redux';
 import ReactDOM from 'react-dom';
 import React from 'react';
+import addCounter from './add-counter-reducer';
 
-import Counter from './Counter1.js';
+import Counter from './counter.js';
 import reducer from './reducer.js';
 
 const store = createStore(reducer);
